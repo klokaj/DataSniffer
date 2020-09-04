@@ -37,8 +37,9 @@ Wyjścia:
 <p>
 
 	- testbench napisanego modułu
-	- moduł potrzebuje kontrolera, którego zadaniem będzie komunikowanie się z procesorem sprzętowym, włączanie wyłączanie detekcji, 
-	  pobieranie danych z fifo, zapisywanie numerów telefonu do fifo, wysyłanie danych do procesora sprzętowego
+	- dodanie Fifo wejściowego / wyjściowgo
+	- dodanie kontrolerów fifo 
+	- dodanie głównego kontrolera, ktry będzie zarządzał pracą całego modułu i komunikował się z ARM
 </p>		
 	
 
