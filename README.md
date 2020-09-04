@@ -1,12 +1,20 @@
 # DataSniffer
 
-
 Wykrywa numer telefonu w stringu wejściowym. 
+## Interfejs
+<p>
+	
+Numer telefonu aby być poprawnie wykrytym musi być w postaci cccccccccN albo cccBcccBcccN <br>
+Gdzie: 	
+	<ol>
+		<li> C - cyfra </li>
+		<li> B -  znak biały " " lub "-" </li> 
+		<li> N - znak inny niż cyfra </li> 
+	</ol>
+</p>
 
-Numer telefonu aby być poprawnie wykrytym musi być w postaci cccccccccN albo cccBcccBcccN
-gdzie C - cyfra, B -  znak biały " " lub "-", N - znak inny niż cyfra.
-
-NumberDetector: 
+<p>
+## NumberDetector: 
 
 Wejscia:
       clk		//sygnał zegara
@@ -18,14 +26,14 @@ Wyjścia:
       write		//sygnał informujący, że dany znak jest częścią numeru telefonu i powinien być zapisany
 		  
 		  
+</p>
 
-
-
-todo: 
+<p>
+## todo: 
 	- testbench napisanego modułu
 	- moduł potrzebuje kontrolera, którego zadaniem będzie komunikowanie się z procesorem sprzętowym, włączanie wyłączanie detekcji, 
 	  pobieranie danych z fifo, zapisywanie numerów telefonu do fifo, wysyłanie danych do procesora sprzętowego
-		
+</p>		
 	
 
 
