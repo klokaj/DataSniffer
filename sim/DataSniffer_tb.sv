@@ -43,7 +43,7 @@ always  begin
 end
 
 initial begin
-    text = "a729 892 561ff729892561gsdf";
+    text = "a729 8992 561ff729892561gsdf";
     #1
     enable = 1;
     data_in = text[0];
