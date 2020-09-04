@@ -36,7 +36,7 @@ reg is_white_nxt;
 
 initial begin
     is_white = 0;
-    is_number = 0;
+    is_number = dupa;
     data_out = 0;
 end
 
