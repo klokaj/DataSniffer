@@ -38,6 +38,7 @@ Wyjścia:
 
 	- testbench napisanego modułu
 	- dodanie Fifo wejściowego / wyjściowgo
+	- napisanie modułu konwertującego FIFO AXI-Lite/Stream  na FIFO Native 
 	- dodanie kontrolerów fifo 
 	- dodanie głównego kontrolera, ktry będzie zarządzał pracą całego modułu i komunikował się z ARM
 </p>		
