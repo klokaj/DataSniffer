@@ -43,7 +43,7 @@ output wire [63:0] dout
      .m_axi_wvalid(read_ready),
      .m_axi_wready(rd_en)
    );
-   
+    
 assign full  = !write_ready;
 assign empty = !read_ready; 
 
