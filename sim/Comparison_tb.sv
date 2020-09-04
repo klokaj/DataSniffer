@@ -1,7 +1,7 @@
 `timescale 1ns / 10ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company:     AGH-UST
-// Engineer:    Krzysztof £okaj
+// Engineer:    Krzysztof Lokaj
 // 
 // Create Date: 03.09.2020 12:59:49
 // Design Name: 
