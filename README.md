@@ -5,7 +5,6 @@ Wykrywa numer telefonu w stringu wejściowym.
 
 Numer telefonu aby być poprawnie wykrytym musi być w postaci cccccccccN albo cccBcccBcccN
 gdzie C - cyfra, B -  znak biały " " lub "-", N - znak inny niż cyfra.
- 
 
 NumberDetector: 
 
